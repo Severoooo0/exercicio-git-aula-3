@@ -1,15 +1,15 @@
-# Calculadora de IMC
+# FizzBuzz
 
 ## Objetivo
-Ler peso e altura, calcular o IMC e mostrar uma classificação.
-
-Fórmula:
-`IMC = peso / altura²`
+Imprimir os números de 1 a 100:
+- múltiplos de 3 → `Fizz`
+- múltiplos de 5 → `Buzz`
+- múltiplos de 3 e 5 → `FizzBuzz`
+- demais números → o próprio número
 
 ## Diferenças de sintaxe
-- Python usa `input()` e converte o valor com `float()`.
-- JavaScript usa `prompt()` e `Number()` para obter um número.
-- Python usa `**` para potência, assim como JavaScript.
+- Python usa `for numero in range(...)` e não precisa de chaves `{}`.
+- JavaScript usa `for (...)` com inicialização, condição e incremento.
+- Python usa `and`, enquanto JavaScript usa `&&`.
 - Python usa `elif`; JavaScript usa `else if`.
-- Python permite `f-string` com `f"..."`; JavaScript usa template literals com crases.
-- Python usa `:.2f` para duas casas decimais; JavaScript usa `.toFixed(2)`.
+- A saída é feita com `print()` em Python e `console.log()` em JavaScript.
